@@ -12,3 +12,46 @@ docs/
 
 # Dotenv file
 .env
+
+# lib
+/lib/
+
+# 编译生成的 build 目录
+/build/
+
+# 代码生成输出（graph codegen）
+/generated/
+
+# node_modules 不需要提交
+/node_modules/
+
+# 临时文件
+.DS_Store
+*.log
+*.tmp
+
+# Graph CLI 缓存
+.graphclientrc.yml
+.graphclient/
+
+# Docker 卷挂载数据
+/data/
+.ipfs/
+postgres/
+pgdata/
+ipfsdata/
+
+# TypeScript 缓存
+dist/
+*.tsbuildinfo
+
+# 环境变量文件（如有）
+.env
+.env.local
+
+# node module
+/out/
+/lib/
+
+**/node_modules/
+**/build/

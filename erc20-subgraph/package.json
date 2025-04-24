@@ -1,0 +1,10 @@
+{
+  "name": "erc20-subgraph",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@graphprotocol/graph-cli": "^0.97.0",
+    "@graphprotocol/graph-ts": "^0.38.0"
+  }
+}
