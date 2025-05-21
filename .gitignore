@@ -10,8 +10,6 @@ out/
 # Docs
 docs/
 
-# Dotenv file
-.env
 
 # lib
 /lib/
@@ -45,9 +43,6 @@ ipfsdata/
 dist/
 *.tsbuildinfo
 
-# 环境变量文件（如有）
-.env
-.env.local
 
 # node module
 /out/
